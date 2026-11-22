@@ -1,4 +1,4 @@
-# sefat-skills
+# skills
 
 My personal collection of skills for AI coding agents (Claude Code, Cursor, Codex, and others). Skills follow the [Agent Skills](https://agentskills.io/) format and install with the [`skills`](https://github.com/vercel-labs/skills) CLI.
 
@@ -6,22 +6,22 @@ My personal collection of skills for AI coding agents (Claude Code, Cursor, Code
 
 ```sh
 # See what's in the collection
-npx skills add sefatanam/sefat-skills --list
+npx skills add sefatanam/skills --list
 
 # Install one skill
-npx skills add sefatanam/sefat-skills --skill act
+npx skills add sefatanam/skills --skill act
 
 # Install several skills
-npx skills add sefatanam/sefat-skills --skill act --skill <other-skill>
+npx skills add sefatanam/skills --skill act --skill <other-skill>
 
 # Install every skill
-npx skills add sefatanam/sefat-skills --all
+npx skills add sefatanam/skills --all
 ```
 
 Add `-a claude-code` to install for a single agent only, and `-g` to install globally (user scope) instead of into the current project:
 
 ```sh
-npx skills add sefatanam/sefat-skills --skill act -a claude-code -g
+npx skills add sefatanam/skills --skill act -a claude-code -g
 ```
 
 ## Available skills

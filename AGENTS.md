@@ -1,6 +1,6 @@
 # AGENTS.md
 
-This repo is a collection of agent skills, installed with the `skills` CLI (`npx skills add sefatanam/sefat-skills --skill <name>`). The CLI finds every `skills/<name>/SKILL.md` on its own, so a new skill installs as soon as its folder exists.
+This repo is a collection of agent skills, installed with the `skills` CLI (`npx skills add sefatanam/skills --skill <name>`). The CLI finds every `skills/<name>/SKILL.md` on its own, so a new skill installs as soon as its folder exists.
 
 ## Adding a skill
 
