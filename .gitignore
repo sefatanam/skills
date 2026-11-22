@@ -1,3 +1,6 @@
 .DS_Store
 node_modules/
 .secrets
+
+# Private project details for public skills
+skills/*/references/local*.md

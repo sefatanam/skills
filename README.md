@@ -38,6 +38,18 @@ Run GitHub Actions workflows locally in Docker with [nektos/act](https://github.
 
 **Requires:** `act` (`brew install act`) and Docker.
 
+### ms-code-style
+
+My code style for the MS project, an ASP.NET Core and Angular 11 codebase: TypeScript 4.0, RxJS 6, ESLint and Prettier. It includes a read-only checker that lints only changed lines. Project-specific details live in gitignored `references/local*.md` files.
+
+**Use when:**
+
+- "Implement this ticket in my code style"
+- "Review this branch against my code style"
+- "Will my changed lines pass lint?"
+
+**Requires:** Python 3, and a checkout with a `.eslintrc.new-code.json` and installed `node_modules` for the checker.
+
 ## Adding a skill
 
 See [AGENTS.md](AGENTS.md).
