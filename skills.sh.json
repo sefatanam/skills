@@ -10,7 +10,7 @@
     {
       "title": "Code style",
       "description": "Project-specific code style and engineering rules.",
-      "skills": ["ms-code-style"]
+      "skills": ["ms-code-style", "ms-code-style-2", "ms-mr-code-style"]
     }
   ]
 }
