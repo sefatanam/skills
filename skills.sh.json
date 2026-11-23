@@ -6,6 +6,11 @@
       "title": "DevOps & CI",
       "description": "Skills for building, testing and debugging CI pipelines.",
       "skills": ["act"]
+    },
+    {
+      "title": "Code style",
+      "description": "Project-specific code style and engineering rules.",
+      "skills": ["ms-code-style", "ms-code-style-2", "ms-mr-code-style"]
     }
   ]
 }
